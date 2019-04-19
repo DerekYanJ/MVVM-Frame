@@ -5,4 +5,4 @@ package com.yqy.mvvm_frame
  * @author derekyan
  * @date 2018/5/23
  */
-data class YError(val code: Int, val msg: String)
+data class YError(val code: Int, val msg: String): RuntimeException(msg)
