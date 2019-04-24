@@ -1,4 +1,4 @@
-package com.yqy.mvvm_frame;
+package com.yqy.mvvm_frame.net;
 
 import com.google.gson.Gson;
 import com.google.gson.TypeAdapter;
