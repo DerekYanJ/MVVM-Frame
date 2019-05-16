@@ -1,4 +1,4 @@
-package com.yqy.mvvm_frame
+package com.yqy.mvvm_frame.base
 
 import android.os.Build
 import android.os.Bundle
@@ -7,6 +7,7 @@ import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.widget.Toolbar
+import com.yqy.mvvm_frame.*
 import org.jetbrains.anko.imageResource
 import org.jetbrains.anko.toast
 
@@ -15,7 +16,8 @@ import org.jetbrains.anko.toast
  * @author derekyan
  * @date 2018/5/23
  */
-abstract class BaseActivity: AbstractActivity(), View.OnClickListener,IBaseView {
+abstract class BaseActivity: AbstractActivity(), View.OnClickListener,
+    IBaseView {
 
     lateinit var mToolbar: Toolbar
 
@@ -72,10 +74,11 @@ abstract class BaseActivity: AbstractActivity(), View.OnClickListener,IBaseView 
 
     private fun setContentViewWithToolBar(layoutResID: Int) {
         val mToolBarHelper = ToolBarHelper(
-                this,
-                layoutResID,
-                YCore.getConfigs(YConfigurator.ConfigKeys.TOOLBAR_BACK_RES) as Int,
-                YCore.getConfigs(YConfigurator.ConfigKeys.TOOLBAR_BACKGROUND_RES))
+            this,
+            layoutResID,
+            YCore.getConfigs(YConfigurator.ConfigKeys.TOOLBAR_BACK_RES) as Int,
+            YCore.getConfigs(YConfigurator.ConfigKeys.TOOLBAR_BACKGROUND_RES)
+        )
         mToolbar = mToolBarHelper.toolBar
         setContentView(mToolBarHelper.contentView) /*把 toolbar 设置到Activity 中*/
         setSupportActionBar(mToolbar)

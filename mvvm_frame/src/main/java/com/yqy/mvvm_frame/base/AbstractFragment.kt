@@ -1,4 +1,4 @@
-package com.yqy.mvvm_frame
+package com.yqy.mvvm_frame.base
 
 import android.os.Bundle
 import android.view.View

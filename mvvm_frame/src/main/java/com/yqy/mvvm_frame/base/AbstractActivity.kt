@@ -1,4 +1,4 @@
-package com.yqy.mvvm_frame
+package com.yqy.mvvm_frame.base
 
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity

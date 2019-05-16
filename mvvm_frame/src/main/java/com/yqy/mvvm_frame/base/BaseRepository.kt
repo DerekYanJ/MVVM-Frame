@@ -1,4 +1,4 @@
-package com.yqy.mvvm_frame
+package com.yqy.mvvm_frame.base
 
 import com.yqy.mvvm_frame.net.ApiService
 import io.reactivex.disposables.CompositeDisposable

@@ -1,10 +1,10 @@
-package com.yqy.mvvm_frame
+package com.yqy.mvvm_frame.base
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-
+import com.yqy.mvvm_frame.YError
 
 
 /**
@@ -12,7 +12,8 @@ import android.view.ViewGroup
  * @author derekyan
  * @date 2018/6/20
  */
-abstract class BaseFragment: AbstractFragment(), View.OnClickListener,IBaseView  {
+abstract class BaseFragment: AbstractFragment(), View.OnClickListener,
+    IBaseView {
 
     lateinit var rootView: View
     var isInited = false //是否已经初始化了
