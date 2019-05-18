@@ -4,7 +4,7 @@ import android.os.Bundle
 import android.view.View
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProviders
-import com.yqy.mvvm_frame.TUtil
+import com.yqy.mvvm_frame.util.TUtil
 
 
 /**

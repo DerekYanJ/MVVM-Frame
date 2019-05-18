@@ -1,4 +1,4 @@
-package com.yqy.mvvm_frame;
+package com.yqy.mvvm_frame.util;
 
 import androidx.annotation.NonNull;
 

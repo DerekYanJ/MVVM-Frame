@@ -2,7 +2,7 @@ package com.xinchan.edu.library.http
 
 import com.google.gson.Gson
 import com.google.gson.TypeAdapter
-import com.yqy.mvvm_frame.ApiResponse
+import com.yqy.mvvm_frame.net.ApiResponse
 import com.yqy.mvvm_frame.YError
 import okhttp3.ResponseBody
 import okhttp3.internal.Util.UTF_8

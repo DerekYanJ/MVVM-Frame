@@ -8,6 +8,8 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.widget.Toolbar
 import com.yqy.mvvm_frame.*
+import com.yqy.mvvm_frame.core.YConfigurator
+import com.yqy.mvvm_frame.core.YCore
 import org.jetbrains.anko.imageResource
 import org.jetbrains.anko.toast
 

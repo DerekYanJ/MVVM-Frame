@@ -3,7 +3,7 @@ package com.yqy.mvvm_frame.base
 import android.app.Application
 import android.util.Log
 import androidx.lifecycle.AndroidViewModel
-import com.yqy.mvvm_frame.TUtil
+import com.yqy.mvvm_frame.util.TUtil
 
 
 /**

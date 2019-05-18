@@ -3,7 +3,7 @@ package com.yqy.mvvm_frame.base
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProviders
-import com.yqy.mvvm_frame.TUtil
+import com.yqy.mvvm_frame.util.TUtil
 
 /**
  * @desc

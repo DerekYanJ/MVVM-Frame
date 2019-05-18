@@ -1,4 +1,4 @@
-package com.yqy.mvvm_frame
+package com.yqy.mvvm_frame.base
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -11,6 +11,7 @@ import android.view.ViewGroup
 import android.widget.FrameLayout
 import android.widget.LinearLayout
 import com.blankj.utilcode.utils.BarUtils
+import com.yqy.mvvm_frame.R
 
 /**
  * @author derekyan
@@ -88,7 +89,10 @@ class ToolBarHelper(private val mContext: Activity, layoutId: Int, val navigatio
         * 1、toolbar是否悬浮在窗口之上
         * 2、toolbar的高度获取
         * */
-        private val ATTRS = intArrayOf(R.attr.windowActionBarOverlay, R.dimen.libray_toolbar_height)
+        private val ATTRS = intArrayOf(
+            R.attr.windowActionBarOverlay,
+            R.dimen.libray_toolbar_height
+        )
     }
 
 }
